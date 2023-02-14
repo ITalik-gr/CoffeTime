@@ -1,0 +1,41 @@
+
+// @import 'libs/bootstrap-reboot.min';
+
+* {
+    font-family: 'Merienda', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+.container-fluid {
+    margin: 0 auto;
+    padding: 0 150px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 800px
+
+}
+.black-line {
+    position: relative;
+    &::after, &::before {
+        width: 60px;
+        height: 1px;
+        background-color: #000;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &::before {
+        left: calc(-200% + -25px);
+    }
+    &::after {
+        right: calc(-200% + -25px);
+    }
+}

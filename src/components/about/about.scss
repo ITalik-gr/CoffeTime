@@ -1,0 +1,40 @@
+.about {
+  padding: 80px 0 100px 0;
+  &-wrap {
+
+  }
+  &-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  &-descr {
+    max-width: 589px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  &-line {
+    img {
+
+    }
+  }
+  &-title {
+    margin-bottom: 21px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+  }
+}
